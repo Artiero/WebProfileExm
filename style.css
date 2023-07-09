@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* start css navbar */
+body{
+    overflow-x: hidden;
+}
+
+body .bg-body-costom{
+    background-color: #191A19;
+}
+
+body nav .container .collapse .navbar-nav{
+    margin-right: 50px;
+}
+
+body nav .container .collapse .navbar-nav a{
+    color: #fff;
+    font-family: 'Poppins';
+    padding-left: 24px;
+}
+
+body nav .container .collapse .navbar-nav a:hover{
+    color: #FF7420;
+    font-family: 'Poppins';
+}
+
+body nav .container .collapse .option-costum .select select{
+    border-radius: 10px;
+    padding: 9px 9px;
+    margin-top: 5px;
+    font-family: 'Poppins';
+    padding-left: 24px;
+}
+
+body nav .container .collapse .option-costum .select option{
+    text-align: center;
+    font-family: 'Poppins';
+    padding-left: 24px;
+}
+
+body nav .container .collapse .btn-costum a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #FF7420;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    padding-left: 24px;
+}
+
+body nav .container .collapse .btn-costum{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+/* end css navbar */
+
+/* start css header */
+
+header {
+    background-image: url('assets/images/photo_construction-workers-surveying-site.jpg');
+    background-size: cover;
+    height: 936px;
+    background-position: center;
+}
+
+header .text-costum h1{
+    color: #fff;
+    font-family: 'Poppins';
+    font-weight: 600;
+    margin-left: 112px;
+    padding-top: 250px;
+}
+
+header h1 span{
+    color: #FF7420;
+}
+
+header .text-costum p{
+    color: #fff;
+    font-family: 'Poppins';
+    font-weight: 500;
+    margin-left: 112px;
+    padding-top: 10px;
+}
+
+header .btn-costum{
+    padding-left: 112px;
+}
+
+header .row .btn-service a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #FF7420;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+header .row .btn-project a{
+    text-decoration: none;
+    color: #191A19;
+    background-color: #FF7420;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+header .information{
+    margin-left: 112px;
+    display: inline-flex;
+}
+
+header .row .col h1{
+    color: #FF7420;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 50px;
+}
+
+header .row .col p{
+    color: #fff;
+    font-family: 'Poppins';
+    font-weight: 500;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+header .card-costum{
+    background-color: #FF7420;
+    padding: 15px 30px;
+    border-radius: 10px;
+    /* text-align: right; */
+    margin-top: 50px;
+    margin-left: 900px;
+    margin-right: 150px;
+}
+
+header .card-costum p{
+    color: #fff;
+}
+
+header .card-costum img{
+    padding-right: 10px;
+}
+
+/* end css header */
+
+/* start css about */
+
+.about {
+    background-color: #191A19;
+    height: 800px;
+}
+
+.about .contens{
+    margin-top: 200px;
+}
+
+.about img{
+    height: 800px;
+}
+
+.about .contens h1{
+    color: #fff;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.about .contens p {
+    color: #fff;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+.about .contens h1 span{
+    color: #FF7420;
+}
+
+.about .contens img{
+    height: 50px;
+}
+
+/* end css about */
